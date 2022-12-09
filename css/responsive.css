@@ -68,7 +68,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-.custom-heading .main-heading {font-size: 33px;line-height: 45px;}
+.custom-heading .main-heading {font-size: 30px;line-height: 42px;}
 .custom-button {font-size: 15px;padding: 0px 26px;height: 48px;gap: 0 12px;}
 }
 
