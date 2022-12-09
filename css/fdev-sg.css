@@ -1,25 +1,22 @@
 /* *************** <add section name> Section Start *************** */
 /*Quick-service Start(fdev-sg)*/
-.quick-service-img img {
-    width: 100%;
+.quick-service-wrap {
+    display: flex;
+    align-items: center;
 }
 .quick-service-content {
     position: relative;
+    background-image: url(../images/quick-services-bg-pattern.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 300px;
 }
-.quick-service-content-wrap {
-    position: absolute;
-    top: 132px;
-    padding: 0 111px 0 100px;
-}
-.quick-service-content-wrap.second-wrap {
-    top: 89px;
-}
-.quick-service-content-wrap.third-wrap {
-    top: 149px;
+.quick-service-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 /*Quick-service End(fdev-sg)*/
 /*Custom-cta Start(fdev-sg)*/
