@@ -1,30 +1,30 @@
 /* *************** <add section name> Section Start *************** */
-/*Contact-Us Start(fdev-sg)*/
-.contact-us.custom-pad .custom-heading {
+/*Custom-cta Start(fdev-sg)*/
+.custom-cta.custom-pad .custom-heading {
     text-align: center;
 }
-.contact-us-content {
+.custom-cta-content {
     text-align: center;
 }
-.contact-us-content .custom-paragraph p {
+.custom-cta-content .custom-paragraph p {
     font-size: 23px;
     color: var(--c-primary);
 }
-.contact-us.custom-pad .contact-us-content .button-wrap {
+.custom-cta.custom-pad .custom-cta-content .button-wrap {
     padding-top: 56px;
 }
-.contact-us.custom-pad .custom-heading h3 span {
+.custom-cta.custom-pad .custom-heading h3 span {
     color: var(--c-secondary);
     border-bottom: 2px solid var(--c-secondary);
 }
-.contact-us.custom-pad .custom-heading {
+.custom-cta.custom-pad .custom-heading {
     text-align: center;
     padding: 0 400px;
 }
-.contact-us-content .custom-paragraph {
+.custom-cta-content .custom-paragraph {
     margin-top: 30px;
 }
-/*Contact-Us End(fdev-sg)*/
+/*Custom-cta End(fdev-sg)*/
 /* *************** <add section name> Section End *************** */
 
 @media (min-width: 1700px) and (max-width: 1800px){
