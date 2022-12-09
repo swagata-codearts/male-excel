@@ -186,7 +186,7 @@ h4, h5, h6 {
   padding-top: 48px;
 }
 .custom-heading {
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .custom-heading .main-heading {
@@ -195,7 +195,19 @@ h4, h5, h6 {
   color: var(--c-primary);
   text-transform: capitalize;
 }
-
+.custom-heading-underline {
+  padding-bottom: 25px;
+  position: relative;
+}
+.custom-heading-underline::after {
+  position: absolute;
+  content: '';
+  width: 81px;
+  height: 2px;
+  background-color: var(--c-secondary);
+  left: 0;
+  bottom: 0;
+}
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
 
 /* *************** Header Section Start *************** */
@@ -545,6 +557,41 @@ h4, h5, h6 {
   text-transform: capitalize;
 }
 /* *************** Quick Actions Section End *************** */
+
+/* *************** HRT Section Start *************** */
+.custom-hrt {
+  background-color: var(--c-primary);
+}
+.hrt-left .custom-heading .main-heading {
+  color: var(--c-white-900);
+}
+.hrt-left .hrt-image {
+  padding-top: 45px;
+}
+.hrt-list {
+  color: var(--c-white-900);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 47px;
+  padding-top: 49px;
+}
+.hrt-list li {
+  position: relative;
+  padding-left: 50px;
+}
+.hrt-list li::before {
+  position: absolute;
+  content: '';
+  background-image: url('../images/hormone-replacement-bullet.webp');
+  width: 27px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+/* *************** HRT Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
 /* *************** <add section name> Section End *************** */
