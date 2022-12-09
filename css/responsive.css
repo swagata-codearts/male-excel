@@ -1,20 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-@media (min-width: 1600px) and (max-width: 1500px){
-	
+@media (max-width: 1800px) {
+.container-alt {padding: 0 1.5rem;}
+}
+@media (min-width: 1700px) and (max-width: 1800px){
+.header_search-form:hover .header_search-input {width: 280px;}
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+.header_search-form:hover .header_search-input {width: 270px;}	
+.custom-navbar_nav {gap: 0 60px;margin-left: 45px;}
+.header-button-wrap {margin-left: 45px;}
+}
+@media (min-width: 1500px) and (max-width: 1600px){
+.custom-navbar_brand {padding-block: 35px;}
+.custom-navbar_nav {gap: 0 40px;margin-left: 35px;}
+.header_search-form:hover .header_search-input {width: 260px;}	
+.header_quick-contact {padding-left: 14px;gap: 0 7px;}
+.header_quick-contact::before {left: 0px;}
+.header-button-wrap {margin-left: 35px;}	
 }
 
-@media (min-width: 1500px) and (max-width: 1400px){
-	
+@media (min-width: 1400px) and (max-width: 1500px){
+.custom-navbar_brand {padding-block: 35px;padding-right: 30px;}
+.custom-navbar_nav {gap: 0 30px;margin-left: 25px;}
+.header_search-form:hover .header_search-input {width: 250px;}	
+.header_quick-contact {padding-left: 14px;gap: 0 7px;}
+.header_quick-contact::before {left: 0px;}
+.header-button-wrap {margin-left: 25px;}	
 }
 
-@media (min-width: 1400px) and (max-width: 1300px){
-	
+@media (min-width: 1300px) and (max-width: 1400px){
+.custom-navbar_brand {padding-block: 28px;padding-right: 28px;}
+.custom-navbar_brand img {height: 19px;}
+.custom-navbar_nav {gap: 0 28px;margin-left: 20px;}
+.header_search-form:hover .header_search-input {width: 180px;}	
+.header_quick-contact {padding-left: 14px;gap: 0 7px;}
+.header_quick-contact::before {left: 0px;}
+.header-button-wrap {margin-left: 20px;}
+/* .header_search-form .header_search-input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);} */
 }
-@media (min-width: 1300px) and (max-width: 1200px){
-	
+@media (min-width: 1200px) and (max-width: 1300px){
+.custom-navbar_brand {padding-block: 28px;padding-right: 28px;}
+.custom-navbar_brand img {height: 19px;}
+.custom-navbar_nav {gap: 0 28px;margin-left: 20px;}
+.header_search-form:hover .header_search-input {width: 180px;}	
+.header_quick-contact {padding-left: 14px;gap: 0 7px;}
+.header_quick-contact::before {left: 0px;}
+.header-button-wrap {margin-left: 20px;}
+.header_search-form .header_search-input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
