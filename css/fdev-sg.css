@@ -1,4 +1,30 @@
 /* *************** <add section name> Section Start *************** */
+/*Custom-cta Start(fdev-sg)*/
+.custom-cta.custom-pad .custom-heading {
+    text-align: center;
+}
+.custom-cta-content {
+    text-align: center;
+}
+.custom-cta-content .custom-paragraph p {
+    font-size: 23px;
+    color: var(--c-primary);
+}
+.custom-cta.custom-pad .custom-cta-content .button-wrap {
+    padding-top: 56px;
+}
+.custom-cta.custom-pad .custom-heading h3 span {
+    color: var(--c-secondary);
+    border-bottom: 2px solid var(--c-secondary);
+}
+.custom-cta.custom-pad .custom-heading {
+    text-align: center;
+    padding: 0 400px;
+}
+.custom-cta-content .custom-paragraph {
+    margin-top: 30px;
+}
+/*Custom-cta End(fdev-sg)*/
 /* *************** <add section name> Section End *************** */
 
 @media (min-width: 1700px) and (max-width: 1800px){
