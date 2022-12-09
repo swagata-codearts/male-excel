@@ -11,6 +11,7 @@
 .header_search-form:hover .header_search-input {width: 270px;}	
 .custom-navbar_nav {gap: 0 60px;margin-left: 45px;}
 .header-button-wrap {margin-left: 45px;}
+.custom-heading .main-heading {font-size: 40px;line-height: 56px;}
 }
 @media (min-width: 1500px) and (max-width: 1600px){
 .custom-navbar_brand {padding-block: 35px;}
@@ -19,6 +20,7 @@
 .header_quick-contact {padding-left: 14px;gap: 0 7px;}
 .header_quick-contact::before {left: 0px;}
 .header-button-wrap {margin-left: 35px;}	
+.custom-heading .main-heading {font-size: 35px;line-height: 50px;}
 }
 
 @media (min-width: 1400px) and (max-width: 1500px){
@@ -28,6 +30,7 @@
 .header_quick-contact {padding-left: 14px;gap: 0 7px;}
 .header_quick-contact::before {left: 0px;}
 .header-button-wrap {margin-left: 25px;}	
+.custom-heading .main-heading {font-size: 35px;line-height: 48px;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -42,6 +45,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);} */
+  .custom-heading .main-heading {font-size: 35px;line-height: 48px;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 .custom-navbar_brand {padding-block: 28px;padding-right: 28px;}
@@ -55,14 +59,17 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);}
+.custom-heading .main-heading {font-size: 35px;line-height: 48px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+.custom-heading .main-heading {font-size: 33px;line-height: 45px;}
+.custom-button {font-size: 15px;padding: 0px 26px;height: 48px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+.custom-heading .main-heading {font-size: 33px;line-height: 45px;}
+.custom-button {font-size: 15px;padding: 0px 26px;height: 48px;gap: 0 12px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -74,13 +81,15 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+.custom-heading .main-heading {font-size: 30px;line-height: 40px;}
+.custom-button {font-size: 14px;padding: 0px 25px;height: 45px;gap: 0 10px;}
 }
 
 
 @media (max-width: 767.98px){
-    
+.custom-heading .main-heading {font-size: 28px;line-height: 38px;}
 }
 
 @media (max-width: 575.98px){
-    
+.custom-heading .main-heading {font-size: 24px;line-height: 35px;}
 }
