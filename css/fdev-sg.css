@@ -1,4 +1,30 @@
 /* *************** <add section name> Section Start *************** */
+/*Team Start(fdev-sg)*/
+.custom-our-team .custom-our-team-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+.custom-our-team .custom-our-team-image {
+    position: relative;
+}
+.custom-our-team .custom-our-team-image .custom-our-team-image-text {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: var(--c-white-900);
+    width: 70%;
+    text-align: center;
+    padding: 15px;
+}
+.custom-our-team .custom-our-team-image .custom-our-team-image-text h5 {
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 400;
+}
+/*Team End(fdev-sg)*/
 /*Testimonial Start(fdev-sg)*/
 .testimonial-content {
     text-align: center;
