@@ -15,6 +15,27 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+
+jQuery('#our-team-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        992:{
+            items:2
+        },
+        1200:{
+            items:4
+        }
+    }
+  })
+
 jQuery('#testimonial-carousel').owlCarousel({
     loop:true,
     margin:10,
