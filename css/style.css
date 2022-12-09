@@ -373,22 +373,39 @@ h4, h5, h6 {
   object-position: center;
 }
 
+.custom-banner_wrap {
+  position: relative;
+}
 .custom-banner_content {
+  background-color: rgba(255, 255, 255 , 0.78);
+  color: var(--c-primary);
+  text-align: left;
   left: unset;
-  background-color: rgba(255, 255, 255 , 0.6);
+  right: 0;
+  bottom: 208px;
+  width: 714px;
+  padding: 75px 40px 75px 75px;
 }
 
 .custom-banner_content .sub-heading {
   font-size: 16px;
-  line-height: 90px;
-  /* color: var(--c-primary); */
+  padding-bottom: 18px;
 }
 .custom-banner_content .heading {
   font-size: 58px;
   line-height: 74px;
-  width: 80%;
+  /* width: 80%; */
 }
 
+.custom-banner_content .heading span {
+  color: var(--c-secondary);
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.banner-button-wrap {
+  padding-top: 45px;
+}
 
 
 .banner_socials {
@@ -406,6 +423,11 @@ h4, h5, h6 {
 }
 .sticky-left {
   position: fixed;
+  position: fixed;
+width: 42px;
+background-color: var(--c-secondary);
+color: var(--c-white-900);
+height: 360px;
 }
 .banner_socials.slide-left {
   transform: translateX(-72px);
@@ -443,7 +465,7 @@ h4, h5, h6 {
 
 /* *************** Banner Section End *************** */
 
-/* *************** Banner Section Start *************** */
+/* *************** Welcome Section Start *************** */
 .welcome_media  {
   position: relative;
 }
@@ -459,7 +481,13 @@ h4, h5, h6 {
   width: 100%;
 }
 
-/* *************** Banner Section End *************** */
+/* *************** Welcome Section End *************** */
+
+/* *************** Quick Actions Section Start *************** */
+.custom-quick-actions {
+  background-color: var(--c-primary);
+}
+/* *************** Quick Actions Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
 /* *************** <add section name> Section End *************** */
