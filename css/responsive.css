@@ -74,6 +74,18 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
+.custom-header {position: absolute;width: 100%;z-index: 9;top: 0;}
+.custom-navbar_brand {padding-right: 26px;padding-block: 25px;}
+.custom-navbar_nav {
+  margin-left: 0;
+text-align: center;}
+.header_search-form .header_search-input {
+  width: 60%;
+  opacity: 1;
+margin: 0 auto !important;}
+
+.custom-banner {margin-top: 80px;}
 }
 
 

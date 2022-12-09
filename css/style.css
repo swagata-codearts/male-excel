@@ -377,6 +377,9 @@ h4, h5, h6 {
 .header-button-wrap .custom-button {
   padding: 0px 22px;
 }
+.fixed-top .custom-navbar_brand {
+  padding-block: 25px;
+}
 /* *************** Header Section End *************** */
 
 /* *************** Banner Section Start *************** */
@@ -518,15 +521,20 @@ h4, h5, h6 {
   gap: 0 25px;
   padding: 41px 0;
   position: relative;
+  border-left: 1px solid var(--c-blue-900);
 }
-.quick-action_card::before {
+.custom-quick-actions [class*="col-"]:last-child .quick-action_card {
+  border-right: 1px solid var(--c-blue-900);
+}
+.custom-quick-actions [class*="col-"]:last-child .quick-action_card::before {
   position: absolute;
   content: '';
-  height: 100%;
+  height: 33px;
   width: 1px;
-  left: 0;
-  top: 0;
-  background-color: var(--c-blue-900);
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--c-grey-400);
 }
 .quick-action_card::after {
   position: absolute;
