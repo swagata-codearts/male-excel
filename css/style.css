@@ -372,15 +372,10 @@ h4, h5, h6 {
   object-fit: cover;
   object-position: center;
 }
+
 .custom-banner_content {
-  background-color: rgba(255, 255, 255 , 0.78);
-  text-align: left;
-  bottom: unset;
-  top: 50%;
-  transform: translateY(-50%);
   left: unset;
-  right: unset;
-  color: var(--c-primary);
+  background-color: rgba(255, 255, 255 , 0.6);
 }
 
 .custom-banner_content .sub-heading {
@@ -393,6 +388,8 @@ h4, h5, h6 {
   line-height: 74px;
   width: 80%;
 }
+
+
 
 .banner_socials {
   position: absolute;
@@ -443,6 +440,7 @@ h4, h5, h6 {
   left: 50%;
   transform: translateX(-50%);
 }
+
 /* *************** Banner Section End *************** */
 
 /* *************** Banner Section Start *************** */
@@ -460,6 +458,7 @@ h4, h5, h6 {
 .welcome_image img  {
   width: 100%;
 }
+
 /* *************** Banner Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
