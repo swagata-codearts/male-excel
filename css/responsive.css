@@ -75,7 +75,7 @@
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
 
-.custom-header {position: absolute;width: 100%;z-index: 9;top: 0;}
+.custom-header {position: fixed;width: 100%;z-index: 9;top: 0;}
 .custom-navbar_brand {padding-right: 26px;padding-block: 25px;}
 .custom-navbar_nav {
   margin-left: 0;
@@ -86,6 +86,15 @@ text-align: center;}
 margin: 0 auto !important;}
 
 .custom-banner {margin-top: 80px;}
+.custom-banner .carousel-item img {height: 480px;object-position: 80%;}
+.custom-banner_content {bottom: 100px;width: 460px;padding: 25px 40px 25px 25px;}
+.custom-banner_content .heading {font-size: 38px;line-height: 48px;}
+.carousel-inner .container {padding: 0 2rem;}
+.banner-button-wrap {padding-top: 20px;}
+.banner_socials {width: 50px;height: 320px;}
+.banner_socials-list {gap: 15px 0;}
+
+.custom-welcome.custom-pad .row {flex-direction: column-reverse;}
 }
 
 
