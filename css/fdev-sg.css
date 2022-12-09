@@ -1,5 +1,9 @@
 /* *************** <add section name> Section Start *************** */
 /*Team Start(fdev-sg)*/
+.custom-our-team {
+    position: relative;
+    z-index: 99;
+}
 .custom-our-team .custom-our-team-image img {
     width: 100%;
     object-fit: cover;
@@ -35,6 +39,10 @@
 
 /*Team End(fdev-sg)*/
 /*Testimonial Start(fdev-sg)*/
+.custom-testimonial.custom-pad {
+    position: relative;
+    z-index: 99;
+}
 .testimonial-content {
     text-align: center;
     padding: 0 310px;
