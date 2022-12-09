@@ -4,19 +4,40 @@
     display: flex;
     align-items: center;
 }
+.custom-quick-service .quick-service-wrap:nth-child(2) {
+    flex-direction: row-reverse;
+}
+.quick-service-wrap > * {
+    flex-basis: 50%;
+  }
 .quick-service-content {
     position: relative;
     background-image: url(../images/quick-services-bg-pattern.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 600px;
 }
 .quick-service-image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 600px;
+}
+.quick-service-content-wrap.first-wrap {
+    position: absolute;
+    top: 107px;
+    padding: 0 120px 0 96px;
+  }
+.quick-service-content-wrap.second-wrap {
+    position: absolute;
+    top: 59px;
+    padding: 0 120px 0 96px;
+}
+.quick-service-content-wrap.third-wrap {
+    position: absolute;
+    top: 126px;
+    padding: 0 120px 0 96px;
 }
 /*Quick-service End(fdev-sg)*/
 /*Custom-cta Start(fdev-sg)*/
