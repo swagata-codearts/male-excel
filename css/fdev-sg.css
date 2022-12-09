@@ -1,4 +1,23 @@
 /* *************** <add section name> Section Start *************** */
+/*Quick-service Start(fdev-sg)*/
+.quick-service-img img {
+    width: 100%;
+}
+.quick-service-content {
+    position: relative;
+}
+.quick-service-content-wrap {
+    position: absolute;
+    top: 132px;
+    padding: 0 111px 0 100px;
+}
+.quick-service-content-wrap.second-wrap {
+    top: 89px;
+}
+.quick-service-content-wrap.third-wrap {
+    top: 149px;
+}
+/*Quick-service End(fdev-sg)*/
 /*Custom-cta Start(fdev-sg)*/
 .custom-cta.custom-pad .custom-heading {
     text-align: center;
