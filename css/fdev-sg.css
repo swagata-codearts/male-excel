@@ -169,6 +169,7 @@
     .quick-service-content-wrap .custom-heading {margin-bottom: 18px;}
     .quick-service-content-wrap .button-wrap {padding-top: 25px;}
     .custom-cta.custom-pad .custom-heading {padding: 0 370px;}
+    .custom-footer .footer_col-wrap {padding: 80px 0 40px;}
     /*fdev-sg*/
 }
 
@@ -181,7 +182,7 @@
     .custom-cta.custom-pad .custom-cta-content .button-wrap {padding-top: 30px;}
     .custom-our-team .custom-our-team-image .custom-our-team-image-text h5 {font-size: 16px;}
     .custom-cta.custom-pad .custom-heading {margin-bottom: 10px;}
-    .footer_copyright p {font-size: 16px;}
+    .footer_copyright p {font-size: 14px;}
     .testimonial-content {padding: 0 160px;}
     .quick-service-content-wrap .custom-heading {margin-bottom: 18px;}
     .quick-service-content-wrap .button-wrap {padding-top: 25px;}
@@ -191,6 +192,7 @@
     .footer_content-wrap .footer_list .footer_link {font-size: 13px;}
     .footer_content-wrap .footer-title h3 {font-size: 16px;line-height: 30px;}
     .footer_content-wrap .footer_copyright {padding: 22px 0;}
+    .custom-footer .footer_col-wrap {padding: 80px 0 40px;}
     /*fdev-sg*/
 }
 
@@ -203,17 +205,17 @@
     .custom-cta.custom-pad .custom-cta-content .button-wrap {padding-top: 30px;}
     .custom-our-team .custom-our-team-image .custom-our-team-image-text h5 {font-size: 16px;}
     .custom-cta.custom-pad .custom-heading {margin-bottom: 10px;}
-    .footer_copyright p {font-size: 16px;}
+    .footer_copyright p {font-size: 14px;}
     .testimonial-content {padding: 0 100px;}
     .quick-service-content-wrap .custom-heading {margin-bottom: 18px;}
     .quick-service-content-wrap .button-wrap {padding-top: 25px;}
     .custom-cta.custom-pad .custom-heading {padding: 0 220px;}
     .custom-our-team .custom-heading {padding: 0 260px;margin-bottom: 45px;}
     .custom-our-team .custom-our-team-image img {height: 650px;}
-    .footer_content-wrap .footer_col {padding: 0 10px;}
     .footer_content-wrap .footer_list .footer_link {font-size: 13px;}
     .footer_content-wrap .footer-title h3 {font-size: 16px;line-height: 30px;}
     .footer_content-wrap .footer_copyright {padding: 22px 0;}
+    .custom-footer .footer_col-wrap {padding: 80px 0 40px;}
     /*fdev-sg*/
 }
 
@@ -226,7 +228,7 @@
     .custom-cta.custom-pad .custom-cta-content .button-wrap {padding-top: 30px;}
     .custom-our-team .custom-our-team-image .custom-our-team-image-text h5 {font-size: 16px;}
     .custom-cta.custom-pad .custom-heading {margin-bottom: 10px;}
-    .footer_copyright p {font-size: 16px;}
+    .footer_copyright p {font-size: 13px;}
     .testimonial-content {padding: 0 0px;}
     .quick-service-content-wrap .custom-heading {margin-bottom: 18px;}
     .quick-service-content-wrap .button-wrap {padding-top: 25px;}
@@ -236,22 +238,27 @@
     .quick-service-wrap {display: block;}
     .quick-service-content {height: 500px;}
     .quick-service-image {height: 500px;}
-    .footer_content-wrap .footer_col {padding: 0 10px;}
     .footer_content-wrap .footer_list .footer_link {font-size: 13px;}
     .footer_content-wrap .footer-title h3 {font-size: 16px;line-height: 30px;}
     .footer_content-wrap .footer_copyright {padding: 22px 0;}
+    .custom-footer .footer_col-wrap {padding: 60px 0 40px;flex-direction: column;}
+    .custom-footer .footer-title h3 {margin-bottom: 0px;}
+    .custom-footer .footer_col {margin-bottom: 20px;}
+    .custom-footer .footer_col:last-child {margin-bottom: 0px;}
     /*fdev-sg*/
 }
 
 @media (max-width: 767.98px){
     /*fdev-sg*/
     .custom-our-team .custom-heading {padding: 0 30px;}
-    .testimonial-content .custom-paragraph p {font-size: 16px;line-height: 28px;}
+    .testimonial-content .custom-paragraph p {font-size: 15px;line-height: 26px;}
     .custom-testimonial .custom-heading {margin-bottom: 30px;}
     .quick-service-content-wrap {text-align: center;}
     .custom-cta.custom-pad .custom-heading {padding: 0 30px;}
-    .custom-cta-content .custom-paragraph p {font-size: 16px;line-height: 28px;}
+    .custom-cta-content .custom-paragraph p {font-size: 15px;line-height: 26px;}
     .quick-service-content-wrap {padding: 0 10px 0 10px;}
+    .custom-footer .footer_col-wrap {padding: 50px 0 30px;}
+    .footer_content-wrap .footer_copyright {padding: 10px 0;}
     /*fdev-sg*/
 }
 
@@ -263,5 +270,7 @@
     .custom-cta.custom-pad .custom-heading {padding: 0 0px;}
     .custom-cta.custom-pad .custom-heading {margin-bottom: 0px;}
     .custom-testimonial .custom-heading {margin-bottom: 20px;}
+    .custom-footer .footer_col-wrap {padding: 40px 0 20px;}
+    .footer_copyright p {line-height: 26px;}
     /*fdev-sg*/
 }
