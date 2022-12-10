@@ -1,5 +1,4 @@
 /* *************** <add section name> Section Start *************** */
-/*Team Start(fdev-sg)*/
 .custom-our-team {
     position: relative;
     z-index: 99;
@@ -36,9 +35,6 @@
     padding: 0 320px;
     margin-bottom: 68px;
 }
-
-/*Team End(fdev-sg)*/
-/*Testimonial Start(fdev-sg)*/
 .custom-testimonial.custom-pad {
     position: relative;
     z-index: 99;
@@ -66,8 +62,6 @@
 .custom-testimonial.custom-pad .owl-dots {
     display: none;
 }
-/*Testimonial Start(fdev-sg)*/
-/*Quick-service Start(fdev-sg)*/
 .quick-service-wrap {
     display: flex;
     align-items: center;
@@ -77,7 +71,7 @@
 }
 .quick-service-wrap > * {
     flex-basis: 50%;
-  }
+}
 .quick-service-content {
     position: relative;
     background-image: url(../images/quick-services-bg-pattern.webp);
@@ -97,9 +91,7 @@
     top: 50%;
     padding: 0 88px 0 96px;
     transform: translateY(-50%);
-  }
-/*Quick-service End(fdev-sg)*/
-/*Custom-cta Start(fdev-sg)*/
+}
 .custom-cta-content {
     text-align: center;
 }
@@ -122,9 +114,6 @@
 .custom-cta-content .custom-paragraph {
     margin-top: 30px;
 }
-/*Custom-cta End(fdev-sg)*/
-
-
 .custom-hrt.custom-pad .button-wrap .custom-button_alt:hover {
     background-color: var(--c-white-900);
     color: var(--c-primary);
@@ -135,7 +124,11 @@
 
 }
 
-@media (min-width: 1600px) and (max-width: 1920px){
+@media (min-width: 1850px) and (max-width: 1920px){
+
+}
+
+@media (min-width: 1600px) and (max-width: 1850px){
     .testimonial-content .custom-paragraph p {font-size: 22px;line-height: 45px;}
     .testimonial-content h5 {margin-top: 25px;}
     .quick-service-content-wrap {padding: 0 55px 0 65px;}
@@ -166,6 +159,7 @@
     .custom-getting-started.custom-pad .gt_title h3 {font-size: 26px;}
     .custom-about::after {height: 1050px;}
 }
+
 @media (min-width: 1200px) and (max-width: 1366px){
     .testimonial-content .custom-paragraph p {font-size: 18px;line-height: 38px;}
     .testimonial-content h5 {margin-top: 25px;}

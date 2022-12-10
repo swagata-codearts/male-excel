@@ -677,6 +677,125 @@ h4, h5, h6 {
 /* *************** About Section End *************** */
 
 /* *************** <add section name> Section Start *************** */
+.custom-our-team {
+  position: relative;
+  z-index: 99;
+}
+.custom-our-team .custom-our-team-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.custom-our-team .custom-our-team-image {
+  position: relative;
+}
+.custom-our-team .custom-our-team-image .custom-our-team-image-text {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: var(--c-white-900);
+  width: 70%;
+  text-align: center;
+  padding: 15px;
+}
+.custom-our-team .custom-our-team-image .custom-our-team-image-text h5 {
+  font-family: var(--ff-primary);
+  font-size: 18px;
+  font-weight: 400;
+}
+.custom-our-team-content {
+  padding: 0 10px;
+}
+.custom-our-team .custom-heading {
+  text-align: center;
+  padding: 0 320px;
+  margin-bottom: 68px;
+}
+.custom-testimonial.custom-pad {
+  position: relative;
+  z-index: 99;
+}
+.testimonial-content {
+  text-align: center;
+  padding: 0 310px;
+}
+.testimonial-content .custom-paragraph p {
+  font-family: var(--ff-secondary);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 45px;
+  color: var(--c-blue-900);
+}
+.testimonial-content h5 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 42px;
+}
+.custom-testimonial .custom-heading {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.custom-testimonial.custom-pad .owl-dots {
+  display: none;
+}
+.quick-service-wrap {
+  display: flex;
+  align-items: center;
+}
+.custom-quick-service .quick-service-wrap:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.quick-service-wrap > * {
+  flex-basis: 50%;
+}
+.quick-service-content {
+  position: relative;
+  background-image: url(../images/quick-services-bg-pattern.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.quick-service-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.quick-service-content-wrap {
+  position: absolute;
+  top: 50%;
+  padding: 0 88px 0 96px;
+  transform: translateY(-50%);
+}
+.custom-cta-content {
+  text-align: center;
+}
+.custom-cta-content .custom-paragraph p {
+  font-size: 23px;
+  color: var(--c-primary);
+}
+.custom-cta.custom-pad .custom-cta-content .button-wrap {
+  padding-top: 56px;
+}
+.custom-cta.custom-pad .custom-heading h3 span {
+  color: var(--c-secondary);
+  text-decoration: underline;
+}
+.custom-cta.custom-pad .custom-heading {
+  text-align: center;
+  padding: 0 400px;
+  margin-bottom: 10px;
+}
+.custom-cta-content .custom-paragraph {
+  margin-top: 30px;
+}
+.custom-hrt.custom-pad .button-wrap .custom-button_alt:hover {
+  background-color: var(--c-white-900);
+  color: var(--c-primary);
+}
 /* *************** <add section name> Section End *************** */
 
 /* *************** Footer Section Start *************** */
