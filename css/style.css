@@ -482,6 +482,9 @@ h4, h5, h6 {
 /* *************** Banner Section End *************** */
 
 /* *************** Welcome Section Start *************** */
+.welcome_content {
+  padding-right: 95px;
+}
 .welcome_media  {
   position: relative;
 }
@@ -520,10 +523,10 @@ h4, h5, h6 {
   position: relative;
   border-left: 1px solid var(--c-blue-900);
 }
-.custom-quick-actions [class*="col-"]:last-child .quick-action_card {
+.custom-quick-actions [class*="col-"] [class*="col-"]:last-child .quick-action_card {
   border-right: 1px solid var(--c-blue-900);
 }
-.custom-quick-actions [class*="col-"]:last-child .quick-action_card::before {
+.custom-quick-actions [class*="col-"] [class*="col-"]:last-child .quick-action_card::before {
   position: absolute;
   content: '';
   height: 33px;
@@ -635,6 +638,7 @@ h4, h5, h6 {
 .custom-about {
   position: relative;
   z-index: 99;
+  padding-bottom: 152px;
 }
 .custom-about::after {
   content: '';
@@ -683,6 +687,7 @@ h4, h5, h6 {
 }
 .footer_content-wrap  {
   position: relative;
+  z-index: 9;
 }
 .footer_content-wrap::after, 
 .footer_content-wrap::before {
@@ -693,6 +698,7 @@ h4, h5, h6 {
   height: 268px;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: -1;
 }
 .footer_content-wrap::before  {
   top: 2px;
@@ -701,7 +707,7 @@ h4, h5, h6 {
 .footer_content-wrap::after  {
   bottom: -32px;
   left: 0;
-  transform: scaleX(-1) rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .footer_col-wrap {
