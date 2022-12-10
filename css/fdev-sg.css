@@ -115,7 +115,7 @@
 }
 .custom-cta.custom-pad .custom-heading h3 span {
     color: var(--c-secondary);
-    border-bottom: 2px solid var(--c-secondary);
+    text-decoration: underline;
 }
 .custom-cta.custom-pad .custom-heading {
     text-align: center;
@@ -125,6 +125,12 @@
     margin-top: 30px;
 }
 /*Custom-cta End(fdev-sg)*/
+
+
+.custom-hrt.custom-pad .button-wrap .custom-button_alt:hover {
+    background-color: var(--c-white-900);
+    color: var(--c-primary);
+}
 /* *************** <add section name> Section End *************** */
 
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -139,6 +145,7 @@
     .custom-cta-content .custom-paragraph p {font-size: 20px;}
     .custom-cta.custom-pad .custom-cta-content .button-wrap {padding-top: 40px;}
     /*fdev-sg*/
+    .custom-getting-started.custom-pad .gt_content {padding-top: 48px;}
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -153,6 +160,16 @@
     .custom-cta.custom-pad .custom-heading {margin-bottom: 20px;}
     .footer_copyright p {font-size: 16px;}
     /*fdev-sg*/
+    .custom-getting-started.custom-pad .gt_content {padding-top: 48px;}
+    .custom-banner_content {right: 20px;padding: 75px 45px 75px 45px;bottom: 170px;}
+    .custom-getting-started.custom-pad .gt_content {padding-top: 40px;}
+    .custom-banner_content .heading {font-size: 50px;line-height: 70px;}
+    .custom-banner .carousel-item img {height: 750px;}
+    .custom-hrt.custom-pad .hrt-right .hrt-image img {width: 100%;}
+    .custom-hrt.custom-pad .hrt-list li {font-size: 20px;padding-left: 40px;}
+    .custom-hrt.custom-pad .hrt-list li::before {width: 24px;height: 18px;}
+    .custom-hrt.custom-pad .hrt-left .hrt-image {padding-top: 30px;}
+    .custom-getting-started.custom-pad .gt_title h3 {font-size: 26px;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 	/*fdev-sg*/
@@ -171,6 +188,16 @@
     .custom-cta.custom-pad .custom-heading {padding: 0 370px;}
     .custom-footer .footer_col-wrap {padding: 80px 0 40px;}
     /*fdev-sg*/
+    .custom-getting-started.custom-pad .gt_content {padding-top: 48px;}
+    .custom-banner_content {right: 20px;padding: 75px 45px 75px 45px;bottom: 170px;}
+    .custom-getting-started.custom-pad .gt_content {padding-top: 40px;}
+    .custom-banner_content .heading {font-size: 50px;line-height: 70px;}
+    .custom-banner .carousel-item img {height: 750px;}
+    .custom-hrt.custom-pad .hrt-right .hrt-image img {width: 100%;}
+    .custom-hrt.custom-pad .hrt-list li {font-size: 20px;padding-left: 40px;}
+    .custom-hrt.custom-pad .hrt-list li::before {width: 24px;height: 18px;}
+    .custom-hrt.custom-pad .hrt-left .hrt-image {padding-top: 30px;}
+    .custom-getting-started.custom-pad .gt_title h3 {font-size: 26px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
