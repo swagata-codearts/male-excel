@@ -302,7 +302,7 @@
     .quick-service-content-wrap .button-wrap {padding-top: 25px;}
     .custom-cta.custom-pad .custom-heading {padding: 0 120px;}
     .custom-our-team .custom-heading {padding: 0 110px;margin-bottom: 25px;}
-    .custom-our-team .custom-our-team-image img {height:600px;}
+    .custom-our-team .custom-our-team-image img {height:500px;}
     .quick-service-wrap {display: block;}
     .quick-service-content {height: 500px;}
     .quick-service-image {height: 500px;}
@@ -312,7 +312,7 @@
     .custom-hrt.custom-pad .hrt-list li {font-size: 17px;padding-left: 30px;}
     .custom-hrt.custom-pad .hrt-list li::before {width: 18px;height: 14px;}
     .custom-hrt.custom-pad .hrt-left .hrt-image {padding-top: 25px;}
-    .custom-getting-started.custom-pad .gt_title h3 {font-size: 21px;}
+    .custom-getting-started.custom-pad .gt_title h3 {font-size: 20px;}
     .custom-quick-actions .quick-action_card img {height: 28px;}
     .custom-quick-actions .quick-action_card .content h3 {font-size: 20px;}
     .about-left-image img:first-child {width: 450px;height: 450px;}
@@ -347,7 +347,7 @@
     .custom-getting-started.custom-pad .gt-wrap {margin-bottom: 20px;}
     .custom-getting-started.custom-pad .gt_title {padding-bottom: 8px;}
     .custom-getting-started.custom-pad {padding: 50px 0 30px;}
-    .custom-our-team .custom-our-team-image img {height: 520px;}
+    .custom-our-team .custom-our-team-image img {height: 480px;}
 }
 
 @media (max-width: 575.98px){
