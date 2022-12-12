@@ -55,14 +55,7 @@ jQuery('#testimonial-carousel').owlCarousel({
         }
     }
   })
-function getDocHeight() {
-    var D = document;
-    return Math.max(
-        D.body.scrollHeight, D.documentElement.scrollHeight,
-        D.body.offsetHeight, D.documentElement.offsetHeight,
-        D.body.clientHeight, D.documentElement.clientHeight
-    );
-}
+
 jQuery(document).ready(function(){
     jQuery(window).scroll(function() {
        if(jQuery(this).scrollTop() > 200 ) {
@@ -75,15 +68,18 @@ jQuery(document).ready(function(){
        jQuery(".banner_socials").removeClass("slide-left");
       }
     });
-    // jQuery(window).scroll(function() {
-    //    if(jQuery(this).scrollTop() > 400 ) {
-    //     jQuery(".banner_socials").removeClass("slide-left").addClass("sticky-left");
-    //    } else if(Math.round(jQuery(window).scrollTop()) + jQuery(window).innerHeight() == jQuery(document).height()) {
-    //     loadPagination();
-    //     alert("2210")
-    //     jQuery(".banner_socials").removeClass("sticky-left").addClass("slide-left");
-        
-    //    }
-      
-    // });
+
+    jQuery('.count-number').each(function () {
+        jQuery(this).prop('Counter',0).animate({
+            Counter: jQuery(this).text()
+        }, {
+          
+          //chnage count up speed here
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                jQuery(this).text(Math.ceil(now));
+            }
+        });
+    });
 });

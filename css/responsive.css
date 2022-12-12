@@ -356,7 +356,7 @@
 .custom-welcome.custom-pad .welcome_image:first-child img {height: 320px;}
 .welcome_media > :first-child {top: 60%;}
 .custom-about::after {height: 950px;}
-.custom-hrt.custom-pad .hrt-left .hrt-image img {width: 100%;}
+.custom-hrt.custom-pad .hrt-left .hrt-image img {width: 100%;min-height: unset;}
 .custom-hrt.custom-pad .hrt-list {line-height: 42px;padding-top: 25px;}
 .custom-getting-started.custom-pad .gt-wrap {padding: 0 0px;margin-bottom: 30px;}
 .custom-heading-underline {padding-bottom: 0px;}
