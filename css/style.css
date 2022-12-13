@@ -980,7 +980,9 @@ h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
 }  
-
+ .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--c-white-900) !important;
+}
 /* Our Story Page Start */
 .inner-our-story {
   padding-bottom: 270px;
@@ -1121,7 +1123,8 @@ h4, h5, h6 {
 }
 
 .inner-why-choose  .custom-heading-underline::after,
-.faq  .custom-heading-underline::after {
+.faq  .custom-heading-underline::after,
+.inner-contact-us-info .custom-heading-underline::after {
   left: 50%;transform: translateX(-50%);
 }
 .why-choose-box {
@@ -1284,5 +1287,124 @@ border: 1px solid rgb(241, 241, 241);
   font-weight: 500;
 }
 /* Service Page End */
+/* Service Inner Page Start */
+.service-inner-about.inner-our-story {
+  padding-bottom: 106px;
+}
+.service-inner-about .our-story-image img {
+  width: 100%;
+  height: 650px;
+  bottom: unset;
+  position: relative;
+  padding: 0;
+}
+.service-inner-about .our-story-image {
+  padding-left: 50px;
+}
+.service-inner-symptoms .symptom-left-image img {
+  width: 100%;
+  height: 620px;
+  object-fit: cover;
+  object-position: top;
+}
+.service-inner-symptoms .symptom-right ul {
+  column-count: 1;
+}
+.service-inner-about .our-story-content {
+  padding: 0;
+}
+.custom-cta.inner-cta .custom-heading {
+  text-align: center;
+  padding: 0 25%;
+}
+/* Service Inner Page End */
+/* Contact Us Start */
+.contact-details-box {
+  background: var(--c-secondary);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  align-items: self-start;
+  justify-content: center;
+  padding-left: 140px;
+}
+.contact-details-box-icon {
+  height: 65px;
+  width: 65px;
+  box-shadow: -10px 10px var(--c-primary);
+  position: absolute;
+  left: 45px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 65px;
+  background: #fff;
+  color: var(--c-primary);
+}
+.contact-box-title {
+  color: var(--c-white-900);
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.contact-details-box p, .contact-details-box a {
+  font-size: 17px;
+  line-height: 21px;
+  color: var(--c-white-900);
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.section-title-wrapper .custom-heading {
+  width: 70%;
+}
+.contact-form-two-section {
+  padding-bottom: 60px;
+}
+.form-left-image img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: top;
+}
+.contact-form-container {
+  margin-left: 35px;
+}
+.section-title-wrapper {
+  margin-bottom: 45px;
+}
+.form-control-wrapper {
+  margin-bottom: 35px;
+}
+.form-control-wrapper input,
+.form-control-wrapper select {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid var(--c-secondary);
+  background-color: #fff;
+  height: 55px !important;
+}
+.form-control-wrapper input::placeholder,
+.form-control-wrapper select {
+  font-size: 19px;
+  font-family: var(--ff-tertiary);
+  font-weight: 600;
+  color: #4f4f4f;
+  opacity: 0.5;
+  height: 52px;
+}
+input.custom-button {
+  border-inline: none;
+  border-top: none;
+}
+input:focus-visible {
+  outline: none;
+}
+.custom-map iframe  {
+  width: 100%;
+  height: 450px;
+}
+/* Contact Us End */
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* INNER PAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
 

@@ -431,15 +431,9 @@
 .banner_socials {position: relative;flex-direction: row;width: 100%;height: auto;padding: 20px 0;background-color: var(--c-white-800);}
 .custom-welcome.custom-pad .welcome_content {margin-top: 25px;}
 .welcome_media > :last-child {
-  padding-left: 15px;
-}
-.custom-welcome.custom-pad .welcome_image:first-child img {
-  height: 180px;
-}
-.custom-hrt.custom-pad .hrt-list li {
-  font-size: 14px;
-  padding-left: 25px;
-}
+  padding-left: 15px;}
+.custom-welcome.custom-pad .welcome_image:first-child img {height: 180px;}
+.custom-hrt.custom-pad .hrt-list li {font-size: 14px;padding-left: 25px;}
 .custom-welcome.custom-pad .welcome_image img {height: 330px;}
 .banner_socials-text {writing-mode: unset;padding: 0 0 0 80px;}
 .banner_socials.slide-left {transform: unset;}
