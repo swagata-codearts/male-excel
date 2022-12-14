@@ -1328,6 +1328,7 @@ border: 1px solid rgb(241, 241, 241);
   align-items: self-start;
   justify-content: center;
   padding-left: 140px;
+  padding-right: 15px;
 }
 .contact-details-box-icon {
   height: 65px;
