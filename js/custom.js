@@ -33,7 +33,7 @@ jQuery('#our-team-carousel').owlCarousel({
         1024:{
             items:3
         },
-        1366:{
+        1400:{
             items:4
         }
     }
