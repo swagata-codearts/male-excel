@@ -131,6 +131,13 @@
 .custom-cta.custom-pad .custom-cta-content .button-wrap {padding-top: 25px;}
 .quick-service-wrap {height: 560px;}
 .container {padding: 0 1.5rem;}
+
+.inner-our-story {padding-bottom: 240px !important;}
+.our-story-content {padding-left: 20px;}
+.our-story-image img:first-child {padding-right: 50px;}
+.counter-section-two .count-icon img {width: 80px;height: 80px;}
+.count-number-and-unit {font-size: 45px;margin-top: 15px;margin-bottom: 5px;}
+.counter-section-two .count-title {font-size: 17px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -247,6 +254,15 @@
 .custom-cta-content .custom-paragraph {margin-top: 15px;}
 .quick-service-wrap {height: 560px;}
 .container {padding: 0 1.5rem;}
+
+.inner-our-story {padding-bottom: 240px !important;}
+.our-story-content {padding-left: 5px;}
+.our-story-image img:first-child {padding-right: 50px;}
+.counter-section-two .count-icon img {width: 80px;height: 80px;}
+.count-number-and-unit {font-size: 45px;margin-top: 15px;margin-bottom: 5px;}
+.counter-section-two .count-title {font-size: 17px;}
+.our-story-image img:last-child {height: 250px;width: 190px;bottom: -70px;}
+.count-number-and-unit {font-size: 38px;margin-top: 12px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -338,6 +354,16 @@
 .custom-cta-content .custom-paragraph {margin-top: 15px;}
 .quick-service-wrap {height: 560px;}
 .container {padding: 0 1.5rem;}
+
+.inner-our-story {padding-bottom: 230px !important;}
+.our-story-content {padding-left: 5px;}
+.our-story-image img:first-child {padding-right: 50px;}
+.counter-section-two .count-icon img {width: 70px;height: 70px;}
+.count-number-and-unit {font-size: 45px;margin-top: 15px;margin-bottom: 5px;}
+.counter-section-two .count-title {font-size: 17px;}
+.our-story-image img:last-child {height: 250px;width: 190px;bottom: -70px;}
+.count-number-and-unit {font-size: 38px;margin-top: 12px;}
+
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -429,7 +455,7 @@
 .custom-welcome.custom-pad .welcome_content {margin-top: 30px;padding-right: 0;}
 .custom-testimonial .custom-heading {margin-bottom: 35px;}
 
-.custom-inner-banner {height: 330px;}
+.custom-inner-banner {height: 330px;margin-top: 63px;}
 .inner-banner-heading h1 {font-size: 46px;text-align: center;}
 .inner-banner-heading h5 {font-size: 14px;margin-bottom: 15px;text-align: center;}
 .inner-banner-heading {padding-bottom: 12px;}

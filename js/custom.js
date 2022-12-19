@@ -61,11 +61,11 @@ jQuery(document).ready(function(){
        if(jQuery(this).scrollTop() > 200 ) {
        jQuery(".custom-header").addClass("fixed-top");
        jQuery(".header-top").slideUp();
-       jQuery(".banner_socials").addClass("slide-left")
+    //    jQuery(".banner_socials").addClass("slide-left")
       } else {
        jQuery(".custom-header").removeClass("fixed-top");
        jQuery(".header-top").slideDown();
-       jQuery(".banner_socials").removeClass("slide-left");
+    //    jQuery(".banner_socials").removeClass("slide-left");
       }
     });
 
